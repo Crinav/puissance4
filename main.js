@@ -295,14 +295,18 @@
     'margin-right':'auto',
     'background-color':'#291fef',
     'padding':'2em'
-    
   })  
   $('body').css({'background-image':'url("public/src/4.png")', 'color':'white'});
   $('.container').append('<form class="form0"></form>');
   $('.form0').append('<fieldset class="field0"></fieldset>');
   $('.field0').append('<legend>Veuillez indiquer la taille du plateau <em>(par defaut 7 colonnes sur 6 lignes)</em></legend>')
-  $('.field0').append('<input type="number" name="col">');
-  $('.field0').append('<input type="number" name="ligne">');
+  $('.field0').append('<div class="col_ligne">\
+                      <legend>Colonnes</legend>\
+                      <input type="number" name="col"><br><br>\
+                      <legend>Lignes</legend>\
+                      <input type="number" name="ligne"><br>\
+                      </div>');
+  $('.col_ligne').css({'text-align':'center'})
   $('.container').append('<form class="form1"></form>');
   $('.container').append('<form class="form2"></form>');
   $('.form1').append('<fieldset class="field1"></fieldset>');
@@ -328,7 +332,17 @@
                       <option value="blue">Bleu</option>\
                       <option value="grey">Gris</option><br>');
   $('.container').append('<input type="submit" class="submit" value="Jouer">');
-  $('.submit').css({'margin-left':'25em'})
+  $('.submit').css({
+    'margin-left':'24em',
+    'width':'85px',
+    'height':'85px',
+    'background':'#fafafa',
+    'box-shadow':'2px 2px 8px #aaa',
+    'font':'bold 15px Arial',
+    'border-radius':'50%',
+    'color':'#555',
+
+})
   $('.form1, .form2').css({'margin':'2em'})
   $('label').css({
     'margin-left':'10em',
@@ -343,7 +357,7 @@
     let col = $('input[name="col"]').val();
     let ligne = $('input[name="ligne"]').val();
     if(color1 == color2){
-      alert('Veuillez choissir une couleur différente');
+      alert('Veuillez choisir deux couleurs différentes');
     }
     else if(col!=="" && col<4 || ligne !=="" && ligne<4){
       alert('veuillez choisir au minimum, 4 colonnes et 4 lignes');
