@@ -49,8 +49,9 @@ $('body').puissance4({
 
 ## Contact  
 
-Christophe Navarro  
-[navarro.christophe@gmail.com](navarro.christophe@gmail.com)  
+ 
+ Copyright (C) Christophe Navarro <navarro.christophe@gmail.com>
+
 
 [linkedin](linkedin.com/in/christophe-navarro-b5173a171) 
   
