@@ -268,7 +268,10 @@
          console.log(player2);
         
       })
-      
+      $('#recommencer').click(function(){
+        $("#modal ").hide();
+        window.location = 'index.html';
+    })
 
       // reset le plateau
       function reset(plateau, p1,p2) {
@@ -383,14 +386,7 @@
       grid = new Grid(col, ligne);
       grid.affichage();
     }
-})
-  
-  $('#recommencer').click(function(){
-        $("#modal ").hide();
-        window.location = 'index.php';
-    })
-
-    
+})  
   }
   })(jQuery)
  
