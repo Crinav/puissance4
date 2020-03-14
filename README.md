@@ -54,7 +54,7 @@ $('body').puissance4({
 
 Copyright (©) Christophe Navarro <navarro.christophe@gmail.com>
 
-linkedin<linkedin.com/in/christophe-navarro-b5173a171> 
+[linkedin](https://www.linkedin.com/in/christophe-navarro-b5173a171) 
   
 ## Screenshots
   
