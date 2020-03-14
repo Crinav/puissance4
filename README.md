@@ -2,6 +2,10 @@
   
 A jquery plugin connect4  
 
+![alt text](https://github.com/Crinav/puissance4/blob/master/Puissance4.png "main page")  
+___  
+  
+
 ## How to use  
 
 ### Prerequisites    
@@ -58,8 +62,7 @@ Copyright (©) Christophe Navarro <navarro.christophe@gmail.com>
   
 ## Screenshots
   
-![alt text](https://github.com/Crinav/puissance4/blob/master/Puissance4.png "main page")  
-___  
+
 
 ![alt text](https://github.com/Crinav/puissance4/blob/master/Puissance4(1).png)   
 ___  
