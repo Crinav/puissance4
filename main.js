@@ -24,7 +24,7 @@
     
 
     affichage() {
-      $('body').css({'background-image':'none','color':'black'})
+      
       $('body').append('<h1 class="titre button">Puissance 4</h1>');
       $('.titre').after('<h2 class="tour button"></h2>');
       $('body').append('<table id="tableau"></table');
@@ -66,9 +66,9 @@
       .html('<h3>Score</h3>')
       .append('<div class="player1"></div>')
       .append('<div class="player2"></div>');      
-      $('.player1').append('<span style="color:'+player1.color+'">'+player1.name+' : </span>');
+      $('.player1').append('<span>'+player1.name+' : </span>');
       $('.player1 span').after('<span id="'+player1.name+'">0</span>');
-      $('.player2').append('<span style="color:'+player2.color+'">'+player2.name+' : </span>');
+      $('.player2').append('<span>'+player2.name+' : </span>');
       $('.player2 span').after('<span id="'+player2.name+'">0</span><br><br>');
 
       $('body').append('<div id="modal">\
@@ -295,19 +295,18 @@
     'margin-right':'auto',
     'background-color':'#291fef',
     'padding':'2em'
-    
   })  
   $('body').css({'background-image':'url("public/src/4.png")', 'color':'white'});
   $('.container').append('<form class="form0"></form>');
   $('.form0').append('<fieldset class="field0"></fieldset>');
   $('.field0').append('<legend>Veuillez indiquer la taille du plateau <em>(par defaut 7 colonnes sur 6 lignes)</em></legend>')
-  $('.field0').append('<div class="col_ligne"><br><legend>Colonnes</legend>\
+  $('.field0').append('<div class="col_ligne">\
+                      <legend>Colonnes</legend>\
                       <input type="number" name="col"><br><br>\
                       <legend>Lignes</legend>\
-                      <input type="number" name="ligne">');
-  $('.col_ligne').css({'text-align':'center'})                    
-  $('.field0').append('');
-  $('.field0').append('');
+                      <input type="number" name="ligne"><br>\
+                      </div>');
+  $('.col_ligne').css({'text-align':'center'})
   $('.container').append('<form class="form1"></form>');
   $('.container').append('<form class="form2"></form>');
   $('.form1').append('<fieldset class="field1"></fieldset>');
@@ -334,15 +333,16 @@
                       <option value="grey">Gris</option><br>');
   $('.container').append('<input type="submit" class="submit" value="Jouer">');
   $('.submit').css({
-    'margin-left':'21em',
+    'margin-left':'24em',
     'width':'85px',
     'height':'85px',
     'background':'#fafafa',
     'box-shadow':'2px 2px 8px #aaa',
-    'font':'bold 17px Arial',
+    'font':'bold 15px Arial',
     'border-radius':'50%',
-    'color':'#555'
-  })
+    'color':'#555',
+
+})
   $('.form1, .form2').css({'margin':'2em'})
   $('label').css({
     'margin-left':'10em',
@@ -357,7 +357,7 @@
     let col = $('input[name="col"]').val();
     let ligne = $('input[name="ligne"]').val();
     if(color1 == color2){
-      alert('Veuillez choissir une couleur différente');
+      alert('Veuillez choisir deux couleurs différentes');
     }
     else if(col!=="" && col<4 || ligne !=="" && ligne<4){
       alert('veuillez choisir au minimum, 4 colonnes et 4 lignes');
@@ -375,7 +375,7 @@
       if(ligne ==""){
         ligne = defaut.nby;
       }
-      
+      $('body').css({'background-image':'none'})
       $('.container').hide();
       player1 = new Player(nom1, color1);
       player2 = new Player(nom2, color2);
