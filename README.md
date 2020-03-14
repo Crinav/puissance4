@@ -51,12 +51,13 @@ $('body').puissance4({
 
 Christophe Navarro  
 [navarro.christophe@gmail.com](navarro.christophe@gmail.com)  
+
 [linkedin](linkedin.com/in/christophe-navarro-b5173a171) 
   
 ## Screenshot
   
-![alt text](https://github.com/Crinav/puissance4/blob/master/index.php/puissance4.png "main page")  
+![alt text](https://github.com/Crinav/puissance4/blob/master/Puissance4.png "main page")  
 
-![alt text](https://github.com/Crinav/puissance4/blob/master/index.php/puissance4(1).png "in game")   
+![alt text](https://github.com/Crinav/puissance4/blob/master/Puissance4(1).png)   
 
-![alt text](https://github.com/Crinav/puissance4/blob/master/index.php/puissance4(2).png "victory")  
+![alt text](https://github.com/Crinav/puissance4/blob/master/Puissance4(2).png)  
