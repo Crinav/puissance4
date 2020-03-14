@@ -6,7 +6,8 @@ A jquery plugin connect4
   
 All you need is a basic html file like this :  
   
-`code(<!DOCTYPE html>
+`code()`
+<!DOCTYPE html>
 <html>
 <head>
   <title>Connect4</title>
@@ -16,4 +17,4 @@ All you need is a basic html file like this :
 <script src="public/script/jquery-3.4.1.min.js"></script>
 <script src="main.js"></script>
 </body>
-</html>)`
+</html>
