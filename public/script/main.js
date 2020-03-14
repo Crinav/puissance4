@@ -75,7 +75,7 @@
       <h4 class="modal-title">Voulez-vous ?</h4><br>\
       <div class="button">\
       <button type="button" class="button" id="continuer" >Continuer</button>\
-      <button type="button" class="button" id="recommencer" >Recommencer</button>\
+      <button type="button" class="button" id="recommencer" >Recommencer une partie</button>\
       </div></div>');
       $("#modal ").hide();
       $('#modal').css({
@@ -85,8 +85,8 @@
         'background-color': 'rgba(22, 200, 244)',
         'border-radius': '10px',
         'top': '250px',
-        'left': '725px',
-        'width': '300px'
+        'left': '750px',
+        'width': '350px'
       })
       $('.modal-title').css({
         'text-align': 'center'

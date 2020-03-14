@@ -31,34 +31,37 @@ $('body').puissance4({
     
   });  
 ```
-Or if you want set the default options , you must call like this :  
+Or if you want set yours defaults options , you must call like this :  
 ```javascript
 $('body').puissance4({
     color1: 'pink',
     color2: 'blue',
-    nbx: '10',
-    nby: '10',
+    nbx: '7',
+    nby: '6',
     name1: 'Chris',
     name2: 'Lucile'
     }); 
 ```
-'color' for the color of  the player's coin ,
-'name' for firstname or pseudo,
-'nbx' for number of columns,
+'color' for the color of  the player's coin ,  
+
+'name' for firstname or pseudo,  
+
+'nbx' for number of columns,  
+
 'nby' for number of rows.
 
 ## Contact  
 
- 
- Copyright (C) Christophe Navarro <navarro.christophe@gmail.com>
+Copyright (©) Christophe Navarro <navarro.christophe@gmail.com>
 
-
-[linkedin](linkedin.com/in/christophe-navarro-b5173a171) 
+linkedin<linkedin.com/in/christophe-navarro-b5173a171> 
   
-## Screenshot
+## Screenshots
   
 ![alt text](https://github.com/Crinav/puissance4/blob/master/Puissance4.png "main page")  
+___  
 
 ![alt text](https://github.com/Crinav/puissance4/blob/master/Puissance4(1).png)   
+___  
 
 ![alt text](https://github.com/Crinav/puissance4/blob/master/Puissance4(2).png)  
