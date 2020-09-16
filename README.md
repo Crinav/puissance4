@@ -3,29 +3,7 @@
 A jquery plugin connect4  
 
 ![alt text](https://github.com/Crinav/puissance4/blob/master/Puissance4.png "main page")  
-___  
-  
-
-## How to use  
-
-### Prerequisites    
-All you need is a basic html file like this :  
-  
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Connect4</title>
-  <meta charset="UTF-8">
-</head> 
-<body>     
-<script src="public/script/jquery-3.4.1.min.js"></script>
-<script src="main.js"></script>
-</body>
-</html>
-```
-  
-A script tag for jquery.js and another for main.js  
+___   
   
 ### Usage  
   
@@ -59,6 +37,8 @@ $('body').puissance4({
 Copyright (©) Christophe Navarro <navarro.christophe@gmail.com>
 
 [linkedin](https://www.linkedin.com/in/christophe-navarro-b5173a171) 
+
+[Portfolio](https://portfolio-chris.herokuapp.com/) 
   
 ## Screenshots
   
